@@ -41,7 +41,7 @@ npm install
 
 ## build(init, run once, just for copying antd.css to dist)
 ```bash
-npm build
+npm run build
 ```
 
 ## Running Dev Server
