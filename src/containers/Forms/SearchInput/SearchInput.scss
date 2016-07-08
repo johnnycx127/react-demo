@@ -1,0 +1,17 @@
+/* 定制样式 */
+
+.ant-advanced-search-form {
+  padding: 16px 8px;
+  background: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+
+  .row {
+    position: relative;
+    left: -6px;
+  }
+
+  .reset-btn {
+    margin-left: 8px;
+  }
+}
