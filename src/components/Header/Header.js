@@ -52,7 +52,11 @@ export default class Header extends React.Component {
               <Menu.Item key="signup">
                 <Link to="/auth/signup">注册</Link>
               </Menu.Item>
-              <Menu.Item key="login">登录</Menu.Item>
+              <Menu.Item key="login">
+                <Link to="/auth/login">
+                登录
+                </Link>
+              </Menu.Item>
               <Menu.Item key="logout">退出</Menu.Item>
             </MenuItemGroup>
           </SubMenu>

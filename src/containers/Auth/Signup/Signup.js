@@ -20,6 +20,7 @@ class Signup extends Component {
   }
 
   componentDidMount = () => {
+    console.log(this);
     this.props.form.setFieldsValue({
       eat: true,
       sleep: true,
