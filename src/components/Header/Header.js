@@ -13,10 +13,9 @@ export default class Header extends React.Component {
     this.state = {
       current: 'mail'
     };
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(e) {
+  handleClick = e=> {
     console.log('click ', e);
     this.setState({
       current: e.key
