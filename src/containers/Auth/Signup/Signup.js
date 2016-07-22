@@ -12,7 +12,7 @@ class Signup extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      passBarShow: false, // 是否显示密码强度提示条
+      passBarShow: true, // 是否显示密码强度提示条
       rePassBarShow: false,
       passStrength: 'L', // 密码强度
       rePassStrength: 'L',

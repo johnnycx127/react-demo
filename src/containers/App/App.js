@@ -24,13 +24,22 @@ export default class App extends Component {
     // const {user} = this.props;
     const user = { name: '123'};
     const styles = require('./App.scss');
-
+    const contentStyle = {
+      width: (window.innerWidth - 240) + 'px',
+      overflowY: 'scroll',
+      overflowX: 'hidden',
+      height: '90%',
+      position: 'fixed',
+      right: 0,
+      top:0
+    }
     return (
       <div className={styles.app}>
         <Helmet {...config.app.head}/>
         <Header />
         <SideBar />
-        <div className={styles.appContent} style={{ width: (window.innerWidth - 240) + 'px' }}>
+
+        <div className={styles.appContent} style={contentStyle}>
           {this.props.children}
         </div>
       </div>

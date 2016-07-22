@@ -15,7 +15,7 @@ export default class SideBar extends Component {
 
     return (
       <Menu className={ styles.sidebar }
-            style={{width:240}}
+            style={{width:240,height:document.body.offsetHeight-50}}
             defaultOpenKeys={['sub1']}
             mode="inline">
         <SubMenu key="sub1" title={<span><Icon type="setting" /><span>页面列表</span></span>}>

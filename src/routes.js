@@ -34,6 +34,7 @@ export default (store) => {
       <Route path="auth">
         <IndexRoute component={NonPropertyView} />
         <Route path="signup" component={Auth.Signup} />
+        <Route path="login" component={Auth.Login} />
       </Route>
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />
